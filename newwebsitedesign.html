@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My Website</title>
+  <link rel="icon" type="image/x-icon" href="C:\Users\amans\Desktop\Visual\HTML Codefile\ImageAssets\favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    
+    body {
+      font-family: "Lato", sans-serif;
+
+    }
+
+    .mySlides {
+      display: none
+    }
+
+    .sl1{
+      height:400px; 
+      width:60%;
+      border: 10px solid #1E90FF;
+    }
+
+    .logo{
+      height:60px;
+      width:100px;
+      margin-top: 8px;
+      margin-left: 60px;
+      margin-bottom: 8px;
+      border-radius: 10px;
+    }
+
+    
+    a{
+      float: right;
+      margin-top: 23px;
+      padding:8px;
+      width:30px;
+      text-align:center;
+      border-radius:20px;
+      text-decoration:none;
+      color:white; 
+      margin-left: 20px;
+    }
+
+  </style>
+</head>
+<!--<img src="C:\Users\amans\Downloads\6WoL.gif" alt="Animated GIF" style="width: 100%px; height: 100%;"> -->
+
+ 
+
+  <!-- Navbar #3B5998; -->
+  <!--<div class="w3-top">
+  <div class="w3-bar w3-card">>
+  </div>
+
+    <hr> -->
+  <!--<div class="w3-top"> -->
+ <!----------------------Logo and icons---------------------------------------------------->
+    <div id="icon" class="box w3-container">
+      <img src="C:\Users\amans\Desktop\Visual\HTML Codefile\ImageAssets\favicon.png" class="logo">
+      <a href="https://www.facebook.com/profile.php?id=100089985987502" target="_blank" style=background:#3B5998 class="fa fa-facebook w3-hover-opacity"></a>
+      <!--<a href="#"style=background:#dd4b39; class="fa fa-google w3-hover-opacity"></a> -->
+      <a href="https://www.linkedin.com/in/amanjot-kaur-1a5546229" target="_blank" style=background:#007bb5; class ="fa fa-linkedin w3-hover-opacity"></a>
+      <a href="https://www.instagram.com/amanjotshemmar/"target="_blank" style=background:#125688; class="fa fa-instagram w3-hover-opacity"></a>
+      <!--<a href="#"style=background:#430297; class="fa fa-yahoo w3-hover-opacity"></a> -->
+    </div>
+
+<!--------------------------------------------Nav bar---------------------------------------------------------------------->
+
+      <!-- Navbar -<div class="w3-top">  -->
+  <div class="w3-bar w3-blue w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-large ">HOME</a>
+    <a href="#ABOUTME" class="w3-bar-item w3-button  w3-large w3-hide-small">ABOUT ME</a>
+    <a href="#ALLINFORMATION" class="w3-bar-item w3-button  w3-large w3-hide-small">ALL INFORMATION</a>
+    <a href="#CONTACTME" class="w3-bar-item w3-button  w3-large w3-hide-small">CONTACT ME</a>
+
+<!--
+    <div class="w3-dropdown-hover w3-center w3-hide-small">
+      <button class=" w3-button w3-center" title="More">ABOUT ME <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">EDUCATION</a>
+        <a href="#" class="w3-bar-item w3-button">WORK EXPERIENCE</a>
+        <a href="#" class="w3-bar-item w3-button">PROJECTS</a>
+        <a href="#" class="w3-bar-item w3-button">CERTIFICATIONS</a>
+        <a href="#" class="w3-bar-item w3-button">HOBBIES</a>
+        <a href="#" class="w3-bar-item w3-button">FUTURE GOALS</a>
+      </div>
+    </div>
+  
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">PROJECTS TEMPLATES <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">SIGNIN</a>
+        <a href="#" class="w3-bar-item w3-button">SIGNUP</a>
+        <a href="#" class="w3-bar-item w3-button">FLAGS</a>
+        <a href="#" class="w3-bar-item w3-button">TABLES</a>  
+      </div>
+    </div>
+  
+    </div> -->
+</div>
+
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar w3-blue w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#ABOUTME" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
+    <a href="#ALLINFORMATION" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">All INFORMATION</a>
+    <a href="#CONTACTME" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT ME</a>
+    </div>
+  <hr>
+  
+
+  <!-- Page content -->
+  <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+    <!-- Automatic Slideshow Images -->
+    <div class="mySlides w3-display-container w3-center">
+      <img class="sl1" src="C:\Users\amans\Desktop\Visual\HTML Codefile\ImageAssets\Im2.jpg">
+    </div>
+
+    <div class="mySlides w3-display-container w3-center">
+      <img class="sl1" src="C:\Users\amans\Desktop\Visual\HTML Codefile\ImageAssets\Im1.jpg" >
+    </div>
+
+    <div class="mySlides w3-display-container w3-center">
+      <img class="sl1" src="C:\Users\amans\Desktop\Visual\HTML Codefile\ImageAssets\Im3.jpg" >
+    </div>
+
+    <div class="mySlides w3-display-container w3-center">
+      <img  class="sl1" src="C:\Users\amans\Desktop\Visual\HTML Codefile\ImageAssets\Im4.jpg" >
+    </div>
+
+    <div class="mySlides w3-display-container w3-center">
+      <img class="sl1" src="C:\Users\amans\Desktop\Visual\HTML Codefile\ImageAssets\Im5.jpg">
+    </div>
+
+    <div class="mySlides w3-display-container w3-center">
+      <img class="sl1" src="C:\Users\amans\Desktop\Visual\HTML Codefile\ImageAssets\Im6.jpg" >
+    </div>
+
+    <div class="mySlides w3-display-container w3-center">
+      <img  class="sl1" src="C:\Users\amans\Desktop\Visual\HTML Codefile\ImageAssets\Im7.jpg">
+    </div>
+
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="ABOUTME">
+    <h2 class="w3-wide"><u>About Me</u></h2>
+    <p class="w3-justify w3-large">My name is Amanjot kaur. My heighest qualification is Master in
+      Computer Science and Engineering with specialization in Artificial Intelligence with Machine Learning.<br>
+<br>
+      I am front-end developer with 4+ years of professional experience specializing in responsive web development using HTML, CSS, JavaScript and Bootstrap, managing database servers using MYSQL, MongoDB, SQL, project management and quality assurance testing. Expert in coordinating effectively with development teams through various platforms like Slack, google meets with foreigners’ clients, and non-technical stakeholders to execute complex web development projects.
+<br><br>
+I started my career as a Front-End web developer at Stellen Infotech which is a company well-versed with the web and Mobile Application Solutions and provides end-to-end solution to meet business needs and deeds. Also empowered businesses to boost conversion rates and revenues.
+        
+<br>
+<br>Then I shifted to WebHopers Infotech and worked as Front-End web developer. WebHopers Infotech which is a well-established company that provides website development, web designing and quality services to our clients. 
+      Also provide specialized services in Website optimization, Responsive web designing, Custom website designing, Software Development, Website Development and many more. </p>
+      <br></p>
+
+      <h3><u>MY TECHNICAL SKILLS</u> </h3>   
+      <h5>                                                                                                                                                             
+•	Programming languages: HTML, CSS, JavaScript, SASS.<br>
+•	Front-End Libraries: Bootstrap, W3.CSS.<br>
+•	Back-End Technologies: PHP, Python.<br>
+•	Database Server: MYSQL, MongoDB, SQL.<br>
+•	Framework: NodeJS, ReactJS.<br>
+•	Other Web Technologies: HTTP/HTTPs, Version Control and Git, API, Testing and Debugging.<br>
+•	Others: C, C++, Object Oriented Programming Languages, AWS.<br>
+•	Website Optimization: SEO.<br>
+•	IDE Platforms: Visual Studio, Brackets, Eclipse.
+</h5>
+  </div>
+
+
+  <!-- partitions parts -->
+  <div class="w3-blue" id="ALLINFORMATION">
+    <div class="w3-container w3-content w3-padding-16" style="max-width:800px">
+      <h2 class="w3-wide w3-center">All INFORMATION ABOUT ME </h2>
+      <p class="w3-opacity w3-center "><i>Want to know more about me ,check below</i></p><br>
+      
+      <div class="w3-row-padding" style="margin:0 -16px">
+        
+        <div class="w3-quarter w3-margin-bottom">
+
+          <div class="w3-container w3-white w3-justify">
+            <p><b>My Education</b></p>
+            <p>I have 8 years of education background in Computer Science and Engineering and all fields.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Click to know more</button>
+          </div>
+        </div>
+
+
+        <div class="w3-quarter w3-margin-bottom">
+          <div class="w3-container w3-white w3-justify">
+            <p><b>Work Experience</b></p>
+            <p>I have 4 years of work experience as a full stack web developer and various technologies.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal2').style.display='block'">Click to know more</button>
+          </div>
+        </div>
+
+
+        <div class="w3-quarter w3-margin-bottom">
+          <div class="w3-container w3-white w3-justify">
+            <p><b>Projects</b></p>
+            <p>I worked on various projects and used numerous skills and programming languages.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal3').style.display='block'">Click to know more</button>
+          </div>
+        </div>
+
+        <div class="w3-quarter w3-margin-bottom">
+          <div class="w3-container w3-white w3-justify">
+            <p><b>Certifications and Publications</b></p>
+            <p>I published research papers and learnt various skills and got Certifications. </p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal4').style.display='block'">Click to know more</button>
+          </div>
+        </div>
+
+
+    </div>
+  </div>
+  </div>
+
+  <!---------------------------education---------------------->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-blue w3-center w3-padding-32"> 
+        <h2 class="w3-wide"><i class="fa fa-education w3-margin-right"></i>My Education</h2>
+      </header>
+      <div class="w3-container w3-justify">
+        <h4><i class="fa fa-user "></i> Master of Computer Science and Engineering</h4>  
+        <h5>Punjabi University, India </h5>
+        <h6>Grade: A+</h6>
+        <p><u>Skills:</u>
+        Machine learning and Artificial Intelligence · Computer Science and Engineering · Linux · Power BI · Business Intelligence · JavaScript · SQL · Interpersonal Skills · Software Development Life Cycle (SDLC) · Communication · Python developer · Programming Languages · Application Development · Web Development · Object-Oriented Programming (OOP) · Front-End Development · SASS · Data Science · PHP · Programming · Operating Systems · C++ · C (Programming Language) · Software Development · HTML5 · Machine Learning Algorithms
+       </p>
+       </div>
+
+       <div class="w3-container w3-justify">
+        <h4><i class="fa fa-user "></i> Bachelor of Computer Science and Engineering</h4>  
+        <h5>Thapar University, India </h5>
+        <h6>Grade: A+</h6>
+        <p><u>Skills:</u>
+        Machine learning and Artificial Intelligence · Computer Science and Engineering · Linux · JavaScript · SQL · Interpersonal Skills · Software Development Life Cycle (SDLC) · Communication · Python developer · Programming Languages · Application Development · Web Development · Object-Oriented Programming (OOP) · Front-End Development · SASS · Data Science · PHP · Programming · Operating Systems · C++ · C (Programming Language) · Software Development · HTML5 · Machine Learning Algorithms
+       </p>
+       </div>
+
+       <div class="w3-container w3-justify">
+        <h4><i class="fa fa-user "></i> Diploma in Computer Science and Engineering</h4>  
+        <h5>Thapar Polytechnic College, India </h5>
+        <h6>Grade: A+</h6>
+        <p><u>Skills:</u>
+        Machine learning and Artificial Intelligence · Computer Science and Engineering · C · C++ · Data Mining · Big Data · C · JavaScript · SQL · Interpersonal Skills · Software Development Life Cycle (SDLC) · Communication · Python developer · Programming Languages · Application Development · Web Development · Object-Oriented Programming (OOP) · Front-End Development · SASS · Data Science · PHP · Programming · Operating Systems · C++ · C (Programming Language) · Software Development · HTML5 · Machine Learning Algorithms
+       </p>
+       </div>
+
+       <button class="w3-button w3-blue w3-margin-left w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+      </div>
+    </div>
+  </div>
+
+
+  <!--  work experience-->
+  <div id="ticketModal2" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-blue w3-center w3-padding-32"> 
+        <h2 class="w3-wide"><i class="fa fa-education w3-margin-right"></i>Work Experience</h2>
+      </header>
+      <div class="w3-container w3-justify">
+        <h4><i class="fa fa-user "></i> Front-end developer</h4>  
+        <h5>Web Hoppers, India </h5>
+        <h5>March 2021 –September 2023</h5>
+        <p>
+          WebHopers Infotech Private Limited is a well-established website development, web designing, and a complete digital marketing company. The main motive of this company is to provide quality services to our clients. We provide our specialized services in
+Website optimization,Responsive web designing,Custom website designing,Software Development,Website Development and many more. </p>
+        </p><u>Roles and Responsibities:</u>
+  <li>Designed 4+ responsive websites using HTML5, CSS3, JavaScript and SASS and created new logo and graphics using Adobe Photoshop and InDesign and integrated multimedia, including audio and video, into the website to make more appealing,</li>
+  <li>Maintained fully-fledged and functioning platforms with databases or servers using MYSQL, MongoDB, SQL.</li>
+  <li>Worked with 4+ development teams and collaborated via Slack and regular video or in-person chats with product managers to ideate software solutions.</li>
+  <li>Executed multiple Git branches, writing and reviewing Pull Requests and pushing production-level code regularly and on a schedule.</li>
+  <li>Managed user-centered design (UCD), planning and conducting user research, user testing, A/B testing, rapid prototyping, which resulted in a 30% improvement in user satisfaction and a 25% increase in user engagement.</li>
+  <li>Implemented HTTP and HTTPS protocols to enhance website security and used SDLC for making software that resulted in 40% decrease in security breaches and safeguarding customer data privacy.</li>
+</div>
+
+       <div class="w3-container w3-justify">
+        <h4><i class="fa fa-user "></i> Front-end developer</h4>  
+        <h5>Stellen Infotech,India </h5>
+        <h5>August 2019 – February 2021</h5>
+        <p>Stellen Infotech is a company well-versed with the web and Mobile Application Solutions and provides end-to-end solution to meet your business needs and deeds.We can empower your business to boost conversion rates and revenues.
+        </p>
+      </p><u>Roles and Responsibities:</u>
+      <li>Developed 3+ custom websites applications with a mobile responsive design with the use of 3rd party platform like BOOTSTRAP5 applications, and programming languages HTML5, CSS3, JavaScript and SASS and many more. and edited website contents and created solutions for identified problems or bugs.</li>
+      <li>Optimized 3+ websites through SEO perspective and helped to prepare the test and release plan for work by creating DB migration scripts and collaborating with the testing team to ensure responsiveness and efficiency and also reprogrammed technical systems.</li>
+      <li>Made 100+flowcharts and user guides for new and existing programs to wrote technical documentation of all programming tasks and procedures in SRS formats.</li>
+      <li>Performed in 3+ management teams and shared workload in a changing environment and met 90%  project deadlines in a high-pressure environment.</li>
+      <li>Planned innovative solutions for a wide variety of product design that include mobile, desktop and hardware interface and enhanced 80% engaging of users on websites.</li>
+      </div>
+
+
+       <button class="w3-button w3-blue w3-margin-left w3-section" onclick="document.getElementById('ticketModal2').style.display='none'">Close <i class="fa fa-remove"></i></button>
+      </div>
+    </div>
+  </div>
+
+<!-----------------------projects -------------------------------------->
+  <div id="ticketModal3" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-blue w3-center w3-padding-32"> 
+        <h2 class="w3-wide"><i class="fa fa-education w3-margin-right"></i>Projects and Certifications</h2>
+      </header>
+      <div class="w3-container w3-justify">
+        <h4>1.Credit Card Fraud Detection using ML and AI and PYTHON</h4>  
+       <ul>
+        <li>Took the dataset from Kaggle and applied the concept of ML, AI and PYTHON libraries.</li>
+        <li> Applied the numerous machine learning algorithms such as supervised, unsupervised and semi supervised and carried out research to find out which algorithms is best to give high performance, accuracy and precision and recall.</li>
+        <li>Applied various Python libraries to check mistakes such as anomaly in credit card datasets by representing 0 as unanomalous data and 1 as anomalous data.</li>
+       </ul>
+        <p><u><b>Skills:</b></u>
+          Machine learning and Artificial Intelligence · Computer Science and Engineering · Kaggle · Python Li · Machine Learning Algorithms · Python (Programming Language) · Artificial Intelligence (AI) </p>
+       </div>
+      
+      <div class="w3-container w3-justify">
+        <h4>2.Automatic Bus Pass System</h4>  
+       <ul>
+        <li> Used web based programming languages such as HTML, CSS, JAVASCRIPT, PHP, SQL database to convert the manual process of making bus pass into automatic system.
+        <li>  Processed data of more than 30,000 students and workers daily bus pass by providing them an interface to choose the options of time and schedule to process the pass and showed the expiry month and date on receipt of pass.
+        <li>Performed the online payment options in the interface to prevent from going in banks to pay the fees and made it easy and accessible to every normal person at all places.
+        </ul>
+        <p><u><b>Skills:</b></u>
+          Computer Science and Engineering · MySQL · JavaScript · SQL · PHP · HTML5 · Cascading Style Sheets (CSS)
+        </div>
+
+
+       <div class="w3-container w3-justify">
+        <h4>3.Stock Market Prediction</h4>  
+       <ul>
+        <li> Applied the concept of ML, AL and python libraries such as PANDAS, NUMPY, MATPLOLIB, SCIPY.
+        <li> Implemented the numerous machine learning algorithms of supervised, unsupervised and semi supervised such as Regression, Classification, and clustering and carried out research to find out which algorithms is best on stock market dataset.</li> 
+        <li> Applied various Python libraries to check high performance parameters such as accuracy and precision and recall F1 score and all and data of stock market.</li></ul>
+        <p><u><b>Skills:</b></u>
+          Machine learning and Artificial Intelligence · Computer Science and Engineering · NumPy · Pandas · SciPy · Artificial Intelligence (AI) · Machine Learning </div>
+
+       <div class="w3-container w3-justify">
+        <h4>4.Online Attendance Marking System</h4>  
+       <ul>
+        <li>Used web based programming languages such as JAVA, HTML, CSS, PHP, MYSQL , NO SQL database to convert the manual process of marking students attendance into automatic system.</li>
+       <li>Worked on designing mobile app as an interface for students to mark the attendance online by using its facial expression.</li>
+      </ul>
+        <p><u><b>Skills:</b></u>
+          Computer Science and Engineering · NoSQL · Node.js · Databases · HTML
+        </div>
+
+       <div class="w3-container w3-justify">
+        <h4>5.Cloud Based Car Parking System</h4>  
+       <ul>
+       <li> Executed Python libraries and web-based programming languages and skills to design an Arduino-driven car parking system that is updating the follow ups of status of Car parked on cloud-based system.
+      </li>
+       <li> Used the application of Google map visible to persons to check in advance the empty space in parking location or not.</li>
+      </ul>
+        <p><u><b>Skills:</b></u>
+          Machine learning and Artificial Intelligence · Computer Science and Engineering · Databases · Cascading Style Sheets (CSS) · HTML · Python (Programming Language) </div>
+
+      
+       <button class="w3-button w3-blue w3-margin-left w3-section" onclick="document.getElementById('ticketModal3').style.display='none'">Close <i class="fa fa-remove"></i></button>
+      </div>
+    </div>
+  </div>
+
+
+ <!----------------Certifivations and publications------------------->
+ <div id="ticketModal4" class="w3-modal">
+  <div class="w3-modal-content w3-animate-top w3-card-4">
+    <header class="w3-container w3-blue w3-center w3-padding-32"> 
+      <h2 class="w3-wide"><i class="fa fa-education w3-margin-right"></i>Certifications & Publications</h2>
+    </header>
+
+    <div class="w3-container w3-justify">
+      <h3><u>Publications:-</u></h4>  
+     
+    <h4> • Stock market prediction using machine learning</h4>  
+      International Journal of Creative Research Thoughts (ISSN: 2320- 28820), UGC Approved Journal No: 49023 (18) · Apr 11, 2023.
+    </p>
+     </div>
+
+     <div class="w3-container w3-justify">
+      <h4>• Comparison of Machine Learning based Classification Techniques in Credit Card Fraud Detection</h4>  
+      GIS Science Journal (vol 7, Issue 12) 
+    </p>
+     </div>
+     
+     <div class="w3-container w3-justify">
+     </p>
+     <h4> •	Credit Card Fraud Detection Using Anomaly Detection (Machine Learning) </h4>
+     International Conference on Innovations in Computer Science and Engineering (ICICSE 2022)</p>
+     </div>
+
+     <hr>
+     <div class="w3-container w3-justify">
+      <h3><u>  Certifications:-</u></h4>  
+      <div class="w3-container w3-justify">
+      <h4>•	Complete Python Developer in 2023 : Zero to Mastery</h4>
+        Udemy 
+      </div>
+
+      <div class="w3-container w3-justify">
+      <h4>•	HTML (Hypertext Markup Language) </h4>
+         Great Learning
+      </div>
+
+      <div class="w3-container w3-justify">
+      <h4>• CSS (Cascading Style Sheets)</h4>
+           Great Learning
+      </div>
+
+
+     <button class="w3-button w3-blue w3-margin-left w3-section" onclick="document.getElementById('ticketModal4').style.display='none'">Close <i class="fa fa-remove"></i></button>
+    </div>
+
+  </div>
+</div>
+
+
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="CONTACTME">
+    <h2 class="w3-wide w3-center">CONTACT ME</h2>
+    <div class="w3-row w3-padding-60 w3-center w3-large">
+      <!--<div class="w3-large w3-margin-bottom"> -->
+        <i class="fa fa-map-marker" style="width:30px"></i> Brampton, Canada<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +1 (437) 808 7313<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: amnshemar96@gmail.com<br>
+      </div>
+  </div>
+
+  <!-- End Page Content -->
+  </div>
+
+  
+
+ 
+  <script>
+    // Automatic Slideshow - change image every 4 seconds
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 4000);
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    var modal = document.getElementById('ticketModal');
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
